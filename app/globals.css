@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.header{
+  padding: 25px;
+  font-size: 25px;
+  background-color:yellow ;
+cursor: pointer;
+
+  align-content: center ;
+  background-color: black;
+  color:black;
+}
+.ul{
+  display: flex;
+  justify-content:space-evenly ;
+  gap: 3rem;
+  background-color: yellow;
+  font-size: 30;
+  border-radius: 0cap;
+}
+.footer{
+  text-align: center;
+  background-color:yellow ;
+  color: black;
+  position: fixed;
+  cursor: pointer;
+  width: 100% ;
+  bottom: 0%;
+  padding: 10px; 
+  font-size:15px ;
+}
+.h1{
+  background-color:yellow;
+  color: black;
+}
